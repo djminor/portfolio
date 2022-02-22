@@ -1,39 +1,38 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>DJ's Portfolio</title>
+		<meta charset="UTF-8"/>
+		<meta name="viewport"
+			content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+		<title>DJ Sproul</title>
+		<link rel="stylesheet" href="portfolio_stylesheet.css">
 	</head>
 	<body>
-		<h1>DJ Sproul</h1>
-		<h2>A resume</h2>
-		<p>First things first, a little bit about me:</p>
-		<br>
-		<p>My dad was a nerd in the 80's, so coding helps me feel closer to him. Unfortunately, it seems like everyone in a class at BYU already has prior experience and I am losing my mind trying to keep up. I wish these classes were designed more for people like me, trying to start to learn something rather than continue on something I've already begun to learn</p>
-		<br>
-		<p><b>Projects:</b></p>
-		<ul>
-			<li>An HTML resume I built a while back</li>
-			<li>A Direct vs. Hohmman Time trajectory calculator</li>
-			<li>The ELCP</li>
-			<li> <a href="djsproul.com">This website</a></li>
-		</ul>
-		<p>Work experience:</p>
-		<br>
-		<ol>
-			<li>Content editor for Williamsburg Academy Independent Study</li>
-			<li>Cashier at Food Lion</li>
-			<li>Support coordinator at Blue Raven Solar</li>
-			<li>Work Orders team lead at Blue Raven Solar</li>
-		</ol>
-		<hr>
-		<p>Contact information:</p>
-		<br>
-		<p>DJ Sproul</p>
-		<br>
-		<p>Email: dasprouljr@gmail.com<p/>
-		<br>
-		<p>Phone number: 803-269-4533</p>
-
+		<header class="header">
+			<a href="index.html" class="logo">DJ Sproul: A Resume</a>
+			<input class="menu-btn" type="checkbox" id="menu-btn" />
+			<label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+			<ul class="menu">
+				<li><a id="home" href="#Home"><b>Home</b></a></li>
+				<li><a id="experience" href="experience.html">Experience</a></li>
+				<li><a id="education" href="education.html">Education</a></li>
+				<li><a id="projects" href="projects.html">Projects</a></li>
+				<li><a id="skills" href="skills.html">Skills</a></li>
+			</ul>
+		</header>
+		<div id="home-content">
+			<div id="home_pic">
+			</div>
+			<div id="coverletter">
+				<p>My name is DJ Sproul and my father was a geek in the 1980s. From a young age, he always fascinated me with all the things he knew how to do on a computer. I never understood any of it and it seemed like something I could never attain, so I never tried to follow in his footsteps.</p>
+				<br>
+				<p>I can't tell exactly when that changed, but at some point during my first semester at Brigham Young University (notably as a linguistics major) while I was bored at work, I remembered my dad had shown me how to edit the html in a browser. In fact, as I write this letter I distinctly remember removing all of the html in a new tab and typing "Website" in the head tag. I wondered why it didn't change anything in my browser window but the name of the tab.</p>
+				<br>	
+				<p>Even though I didn't understand it and even though it didn't do what I wanted it to, I was so intrigued by that head tag that I downloaded Google's Grasshopper app, Mimo, Programming Hub, and VS Code (the editor I wrote this website with) within about a week. I completed them soon after and changed my major to computer science with an emphasis in software engineering.</p>
+				<br>
+				<p>It hasn't been my dream for very long, but I have finally found the thing in life that I am passionate about. I have a vision for my career, something that eluded me for twenty long years. That is why I am applying for this position.</p>
+			</div>
+		</div>
 	</body>
 	</html>
 
